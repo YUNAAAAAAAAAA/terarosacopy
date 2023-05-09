@@ -1,0 +1,488 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*--------------------reset code------------------*/
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    background-color: white;
+    align-items: center;
+    padding: 62px 0 49px;
+}
+header > img{
+    width: 280px; height: 47px;
+    padding: 0  40px;
+}
+
+#maincategory > #main-category > .menu {
+    padding: 0px 27px;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+#subcategory > #sub-category > div > .login{
+    padding: 0 7px 0 8px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 0;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login >li{
+    border-right: 1px solid black;
+    padding-right: 10px;   
+}
+.login :last-child{
+    border-right: none;
+}
+
+#subcategory > #sub-category > div > .about{
+    padding: 10px 7px 0 8px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main{
+    padding: 75px 0 0;
+    margin: auto auto 100px auto;
+    
+}
+
+main > #main-img{
+    width: 100%;
+    padding: 50% 0 0 0;    
+    background-image: url(https://terarosa.com/SkinImg/Sleepy%20Cat_w3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    justify-content: space-around;
+}
+
+.best{
+    width: 1260px;
+    height: 460px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    margin: auto;
+    line-height: 2.0;
+}
+
+#best1{
+    width: 33.33%;
+    margin-top: 25px; 
+}
+#best1 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#best1 > :nth-child(3){
+    font-size: 14px;
+    text-align: left;
+}
+#best1 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#best2{
+    width: 33.33%;
+    margin-top: 25px; 
+}
+#best2 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#best2 > :nth-child(3){
+    font-size: 14px;
+    text-align: left;
+}
+#best2 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#best3{
+    width: 33.33%;
+    margin-top: 25px; 
+}
+#best3 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#best3 > :nth-child(3){
+    font-size: 14px;
+    text-align: left;
+}
+#best3 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#img1{
+    background-image: url(https://terarosa.com/web/product/medium/202305/72808f5586034520f9e44a52a84de9c9.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img2{
+    background-image: url(https://terarosa.com/web/product/medium/202211/9b1fe79231f05e76c762de3058ed4e77.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img3{
+    background-image: url(https://terarosa.com/web/product/medium/20200313/3ac5b58661526cdd830e59002d398c29.jpg);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    justify-content: space-around;
+}
+
+.NEW{
+    width: 1260px;
+    height: 460px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    margin: auto;
+    line-height: 2.0;
+}
+#newimg1{
+    background-image: url(https://terarosa.com/web/product/medium/202304/c1eecf2dd4726c7ff15caaff1218aab1.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#new1{
+    width: 25%;
+    margin-top: 25px; 
+    text-align: left;
+}
+#newimg2{
+    background-image: url(https://terarosa.com/web/product/medium/202304/375459c2107159958d411c93480f3835.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#new2{
+    width: 25%;
+    margin-top: 25px;
+    text-align: left;
+}
+
+#newimg3{
+    background-image: url(https://terarosa.com/web/product/medium/202304/711aa97646046b395716214c996a397a.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#new3{
+    width: 25%;
+    margin-top: 25px;
+    text-align: left;
+}
+
+#newimg4{
+    background-image: url(https://terarosa.com/web/product/medium/202305/58cd0f02ca44555357d4f6a089f30af2.png);
+    max-width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#new4{
+    width: 25%;
+    margin-top: 25px;
+    text-align: left;
+}
+
+#new1 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#new1 > :nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+#new1 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#new2 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#new2 > :nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+#new2 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#new3 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#new3 > :nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+#new3 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#new4 > :nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+#new4 > :nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+#new4 > :last-child{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#last-img{
+    width: 1260px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    padding: 90px 0 40px;
+    margin: auto;
+    line-height: 1.5;}
+
+#lastimg1{
+    background-image: url(https://terarosa.com/SkinImg/main_bn01.jpg);
+    width: 100%;
+    height: 499px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 0 32px 0;
+}
+
+#lastimg2{background-image: url(https://terarosa.com/SkinImg/main_bn02.jpg);
+    width: 610px;
+    height: 334px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lastimg3{background-image: url(https://terarosa.com/SkinImg/main_bn03.jpg);
+    width: 610px;
+    height: 334px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lastimg4{background-image: url(https://terarosa.com/SkinImg/main_bn04.jpg);
+    width: 610px;
+    height: 334px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#lastimg5{background-image: url(https://terarosa.com/SkinImg/main_bn05.jpg);
+    width: 610px;
+    height: 334px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#last-img > ul :nth-child(2){
+    display: flex;
+    gap: 16px;
+    padding: 0 0 8px 0;
+}
+#last-img > ul :last-child{
+    display: flex;
+    gap: 16px;
+}
+
+#bottom-img > ul{
+    width: 1260px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    position: relative;
+    padding: 90px 0 40px;
+    margin: auto;
+    line-height: 1.5;
+    justify-content: space-around;
+}
+
+
+#bottomimg1{
+    background-image: url(https://terarosa.com/SkinImg/main_bt_01.jpg);
+    width: 338px;
+    height: 129px;
+    background-repeat: no-repeat;
+}
+#bottomimg2{
+    background-image: url(https://terarosa.com/SkinImg/main_bt_02.jpg);
+    width: 338px;
+    height: 129px;
+    background-repeat: no-repeat;
+}
+#bottomimg3{
+    background-image: url(https://terarosa.com/SkinImg/main_bt_03.jpg);
+    width: 338px;
+    height: 129px;
+    background-repeat: no-repeat;
+}
+
+footer{
+    width: 100%;
+    height: 325px;
+}
+
+footer > div:first-child > ul{
+    width: 1240px;
+    margin: 0px auto 0 auto;
+    display: flex;
+    text-align: center;
+
+}
+footer > div:first-child > ul > li{
+    padding: 21px 0;
+    border-right: 0.5px solid gray;
+    display: flex;
+    padding: 0 10px;
+}
+footer > div:first-child > ul > :last-child{
+    border-right: none;
+}
+footer > div:first-child{
+    border-top: 1.5px solid black;
+    border-bottom: 0.5px solid gray;
+    padding: 20px ;
+}
+
+footer > div:last-child > ul{
+    width: 1240px;
+    margin: 32px auto 0 auto;
+    text-align: left;
+    display: flex;
+}
+footer > div:last-child > ul > li{
+    border-right: 0.5px solid gray;
+    display: flex;
+    padding: 0 10px;
+}
+footer > div:last-child > ul > :last-child{
+    border-right: none;
+}
+footer > div:last-child > ul > li:first-child > ul > p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer > div:last-child > ul > li:first-child > ul > p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+footer > div:last-child > ul > li:nth-child(2) > ul > p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer > div:last-child > ul > li:last-child > p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer > div:last-child > ul{
+    display: flex;
+    align-items: center;
+}
