@@ -427,7 +427,7 @@ h2{
 
 footer{
     width: 100%;
-    height: 325px;
+    height: 150px;
 }
 
 footer > div:first-child > ul{
@@ -452,37 +452,15 @@ footer > div:first-child{
     padding: 20px ;
 }
 
-footer > div:last-child > ul{
-    width: 1240px;
-    margin: 32px auto 0 auto;
-    text-align: left;
-    display: flex;
+footer > p{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color:#fff;
+    margin-top:10px;
 }
-footer > div:last-child > ul > li{
-    border-right: 0.5px solid gray;
-    display: flex;
-    padding: 0 10px;
-}
-footer > div:last-child > ul > :last-child{
-    border-right: none;
-}
-footer > div:last-child > ul > li:first-child > ul > p{
-    font-size: 20px;
-    line-height: 1.5;
-}
-footer > div:last-child > ul > li:first-child > ul > p:nth-child(2){
-    font-size: 30px;
-    font-weight: bold;
-}
-footer > div:last-child > ul > li:nth-child(2) > ul > p{
-    font-size: 20px;
-    line-height: 1.5;
-}
-footer > div:last-child > ul > li:last-child > p{
-    font-size: 20px;
-    line-height: 1.5;
-}
-footer > div:last-child > ul{
-    display: flex;
-    align-items: center;
+
+footer > p{
+    line-height: 100px;
 }
